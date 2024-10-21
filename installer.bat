@@ -1,3 +1,4 @@
+ÿþ&cls
 REM - This is not the file you need to run. You need to upload this file to your webserver.
 
 @echo off
